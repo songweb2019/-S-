@@ -1,0 +1,133 @@
+#main{
+  width:100%;
+  height:750px;
+}
+.my-container{
+  width: 1200px;
+  height:750px;
+  margin:0 auto;
+}
+/* 标题 */
+.my-title{
+  width:1200px; 
+  height: 50px;
+}
+.my-list{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #08f;
+}
+.my-list li{
+  color:#eef;
+  padding: 0 20px;
+}
+.my-list li a{
+  font-size: 24px;
+  color: #eef;
+}
+.my-list li a:hover{
+  color:#000;
+}
+/* 内容 */
+.my-content{
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width:600px;
+  height:350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box1{ 
+  background: rgb(49, 231, 216);
+}
+.box1 p{
+  text-indent: 30px;
+  line-height: 25px;
+  width:450px;
+}
+.box2{
+  background: rgb(47, 190, 66);
+}
+.box2 h3{
+  width:300px;
+  line-height: 40px;
+}
+.box3{
+  background: rgb(231, 121, 70);
+}
+.box3 button{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size:50px;
+  outline: none;
+  border:1px dashed;
+  cursor: pointer;
+}
+.alert{
+  border:1px solid #a33;
+  color:#922;
+  background:#fee;
+  padding:10px;
+}
+.alert>.close{
+  font:30px bold;
+  cursor:pointer;
+}
+.alert>.close:hover{opacity:1}
+.alert{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fade{ /*定义淡入淡出动画的初始状态,常驻元素  fade 消散 */
+  width: 400px;
+  height:0px;
+  /* display: none; */
+  /*先把左上角定位到浏览器窗口的中心*/
+  top:50%;
+  left:50%;
+  /* 向左拉回宽的一半 */
+  margin-left:-200px;
+  /* 向右拉回高的一半 */
+  margin-top:-50px;		
+  overflow: hidden;
+  transition:all .5s linear;
+  opacity:0;
+}
+.in{ /*定义淡入淡出动画的结束状态*/
+  /* display: block; */
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-left: -90px;
+  margin-top: -60px;
+  opacity: 1;
+}
+
+.box4{
+  background: rgb(172, 26, 74);  
+}
+.box4 h3{
+  color: #eef;
+}
+.box4 button{
+  width: 60px;
+  height: 30px; 
+  margin:10px 0;
+}
+.box4 span{
+  background: #000;
+  color: #eef;
+}

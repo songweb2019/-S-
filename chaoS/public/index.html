@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>超S幻想科技</title>
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- 头 -->
+<header id="header">
+  <div class="head">
+        <!-- logo -->
+        <div class="logo">
+          <img src="imgs/header/logo.png">
+          <p>超S幻想科技</p>
+        </div>
+        <!-- 头部导航 
+        <div class="headtabs">
+         <ul class="tabs">
+            <li><p>公司首页</p></li>
+            <li><p>公司科技</p></li>
+            <li><p>公司成员</p></li>
+            <li><p>公司历史</p></li>
+            <li><p>关于我们</p></li>
+         </ul>
+        </div> 
+        --> 
+  </div>
+</header>
+<!-- 首页 -->
+<main id="main">
+ 
+<!-- 固定导航 -->
+<div class="dropdown" id="pop">
+  <div data-trigger="dropdown" >
+    <img src="http://pic.90sjimg.com/design/01/13/48/71/58f367113595a.png">
+  </div>
+  <!-- 导航栏 -->
+  <ul class="dropdown-menu">
+    <li class="active"><a href="index.html" data-toggle="tab" class="tab1" title="公司首页">首</a>
+    </li>
+    <li><a href="#cont1" data-toggle="tab" class="tab2" title="公司科技">科</a>
+    </li>
+    <li><a href="#cont2" data-toggle="tab" class="tab3" title="公司成员">员</a>
+    </li>
+    <li><a href="#cont3" data-toggle="tab" class="tab4" title="公司历史">史</a>
+    </li>
+    <li><a href="mycenter.html" data-toggle="tab" class="tab5" title="关于我们">关</a>
+    </li>
+  </ul>
+</div>
+
+<!-- 内容区域 -->
+<div class="index-container"> 
+
+   <!-- 首页内容  -->
+   <div id="cont">
+     <!-- 轮播图 -->  
+     <div id="banner">    
+       <!-- 图片 -->
+       <ul id="ul-imgs" style="width:6000px;margin-left:0px;">
+         <li class="li_list">
+           <img src="./imgs/index/banner/banner4.jpg">           
+         </li>
+         <li class="li_list">
+           <img src="./imgs/index/banner/banner2.jpg">           
+         </li>
+         <li class="li_list">
+           <img src="./imgs/index/banner/banner3.jpg"> 
+         </li>
+         <li class="li_list">
+           <img src="./imgs/index/banner/banner1.jpg">       
+         </li>
+         <!--注意！最后li个数要比实际图片张数多1，最后一个li里的img是重复第一张li的图片-->
+         <li class="li_list">
+            <img src="./imgs/index/banner/banner4.jpg">      
+         </li> 
+       </ul>
+       <!-- 轮播图显示器 -->
+       <div id="ul-idxs">
+         <!--虽然li个数比实际图片张数多1，但小圆点的个数不必多1-->
+         <li class="active"></li>
+         <li></li>
+         <li></li>
+         <li></li>
+       </div>
+       <div id="btn-right">&gt;</div>           
+     </div> 
+     <!-- 文本介绍 -->
+     <div id="cont-txt">
+        <h2>超S幻想科技  诚信企业介绍</h2>
+        <!-- 星星 -->
+        <div class="cont-star">
+            <img src="./imgs/index/cont1/star.png" class="star">
+            <img src="./imgs/index/cont1/star.png" class="star">
+            <img src="./imgs/index/cont1/star.png" class="star">
+        </div>
+        <h3>2020年建站 100+人建站团队 HTML5践行者</h3>
+        <p>业务范围涵盖咨询及解决方案、IT 服务及业务流程外包（BPO）服务、解决方案 实施到业务系统运营的整套解决方案，覆盖了企业的运营管理、沟通协调、生产流通、 市场营销、客户服务等各个环节，并在互联网相关前瞻性领域保持长期关注和跟踪。</p>
+        <p>同时公司提供全方位的移动客户端项目解决方案，从产品策划、设计、编码、测试、推广 ，为客户提供整体化的移动客户端方案。实现以产品带动移动客户端项目的思路，以移 动客户端项目带动产品技术，形成产品和移动客户端项目并重发展的战略发展思路。
+        </p>
+     </div>
+  </div>
+
+  <!-- 页面tab内容 -->
+  <div id="content">
+     <!-- 公司科技  -->
+     <div id="cont1">
+
+       <!-- 发展 -->
+       <div id="cont1-dev">
+         <div class="dev-top">
+            <p>互联网发展趋势</p>
+            <p>根据CNNIC统计我国网民人数达到8.02亿</p>
+         </div>
+         <div class="dev-bot">
+            <div class="dev-comp">
+              <img src="./imgs/index/cont1/comp.png">
+            </div>
+            <div class="dev-txt">
+              <p>随着互联网的不断发展</p>
+              <p>越来越多的人通过网络来寻找信息</p>
+              <p>未来将属于网络时代</p>
+            </div>
+         </div>
+       </div>
+       <!-- 信息 -->
+       <div class="dev-info"> 
+         <img src="./imgs/index/cont1/infor.jpg">
+       </div>
+     </div>
+
+     <!-- 公司成员  -->
+     <div id="cont2">
+       <div class="cont2-people">
+
+         <!-- 成员列表 -->
+         <div class="people-list">
+           <!-- 标题内容 -->
+           <div class="p-title">
+              <!-- 左信息 -->
+              <div class="p-title-left">
+                <img src="./imgs/index/cont2/head.png">
+                <p>每个同伴都是惊喜 || 公司者也是同行者</p>
+              </div>
+              <!-- 右下拉 -->
+              <div class="p-title-down">
+                <img src="./imgs/index/cont2/down.png">
+              </div>
+           </div>
+           <!-- 人员介绍 -->
+           <div class="p-content p-fade p-in">
+              <!-- 员工内容 -->
+              <div class="p-emp">
+                 <!-- 员工头像 -->
+                 <div class="p-img">
+                   <img src="./imgs/index/cont2/head1.jpg">
+                 </div> 
+                 <!-- 员工信息 -->
+                 <div class="p-user">
+                    <p>姓名：<span>李清</span></p>
+                    <p>职位：<span>前端开发工程师</span></p>
+                    <p>联系方式：<span>18790687256</span></p>
+                    <p>个性签名：<span>配合很重要，沟通也很重要，有一个完善的开发体系更重要。想到什么就做什么，项目只会越来越乱，改了又改不得稳定，迟早又要出问题。</span></p>
+                 </div>
+              </div>
+           </div>
+         </div><!-- 成员列表 -->
+     
+         <!-- 成员列表 -->
+         <div class="people-list">
+            <!-- 标题内容 -->
+            <div class="p-title">
+               <!-- 左信息 -->
+               <div class="p-title-left">
+                 <img src="./imgs/index/cont2/head.png">
+                 <p>每个同伴都是惊喜 || 公司者也是同行者</p>
+               </div>
+               <!-- 右下拉 -->
+               <div class="p-title-down">
+                 <img src="./imgs/index/cont2/down.png"> 
+               </div>
+            </div>
+            <!-- 人员介绍 -->
+            <div class="p-content p-fade p-in">
+               <!-- 员工内容 -->
+               <div class="p-emp">
+                  <!-- 员工头像 -->
+                  <div class="p-img">
+                    <img src="./imgs/index/cont2/head2.jpg">
+                  </div> 
+                  <!-- 员工信息 -->
+                  <div class="p-user">
+                     <p>姓名：<span>张天刑</span></p>
+                     <p>职位：<span>前端开发工程师</span></p>
+                     <p>联系方式：<span>18790687256</span></p>
+                     <p>个性签名：<span>凡是计算的能给后端的别自己来扛，这不是要不要脸的问题，也不是秀能力的问题，更不是麻烦与不麻烦的问题。即便你把问题处理的再好，最后还是有可能会让你回到原点，因为有安全性一说。</span></p>
+                  </div>
+               </div>
+            </div>
+          </div><!-- 成员列表 -->
+      
+         <!-- 成员列表 -->
+         <div class="people-list">
+            <!-- 标题内容 -->
+            <div class="p-title">
+               <!-- 左信息 -->
+               <div class="p-title-left">
+                 <img src="./imgs/index/cont2/head.png">
+                 <p>每个同伴都是惊喜 || 公司者也是同行者</p>
+               </div>
+               <!-- 右下拉 -->
+               <div class="p-title-down">
+                 <img src="./imgs/index/cont2/down.png">
+               </div>
+            </div>
+            <!-- 人员介绍 -->
+            <div class="p-content p-fade p-in">
+               <!-- 员工内容 -->
+               <div class="p-emp">
+                  <!-- 员工头像 -->
+                  <div class="p-img">
+                    <img src="./imgs/index/cont2/head3.jpg">
+                  </div> 
+                  <!-- 员工信息 -->
+                  <div class="p-user">
+                     <p>姓名：<span>聂辰</span></p>
+                     <p>职位：<span>前端开发工程师</span></p>
+                     <p>联系方式：<span>18790687256</span></p>
+                     <p>个性签名：<span>关于体验或者交互能想远一点就想远一点，能想深一点就想深一点，不要总是存在侥幸心理认为这个问题就这样处理也没啥问题，或者说别人不会发现，这世界上最不缺的就是巧合，谁知道下一刻谁谁抽风就给你点出来了，到时候还得改。</span></p>
+                  </div>
+               </div>
+            </div>
+          </div><!-- 成员列表 -->
+
+         <!-- 成员列表 -->
+         <div class="people-list">
+            <!-- 标题内容 -->
+            <div class="p-title">
+               <!-- 左信息 -->
+               <div class="p-title-left">
+                 <img src="./imgs/index/cont2/head.png">
+                 <p>每个同伴都是惊喜 || 公司者也是同行者</p>
+               </div>
+               <!-- 右下拉 -->
+               <div class="p-title-down">
+                 <img src="./imgs/index/cont2/down.png">
+               </div>
+            </div>
+            <!-- 人员介绍 -->
+            <div class="p-content p-fade p-in">
+               <!-- 员工内容 -->
+               <div class="p-emp">
+                  <!-- 员工头像 -->
+                  <div class="p-img">
+                    <img src="./imgs/index/cont2/head4.jpg">
+                  </div> 
+                  <!-- 员工信息 -->
+                  <div class="p-user">
+                     <p>姓名：<span>AI机器人</span></p>
+                     <p>职位：<span>python工程师</span></p>
+                     <p>联系方式：<span>18790687256</span></p>
+                     <p>个性签名：<span>该开口的就要开口，该要的就要，要之前想好是不是自己想要的，免得到时候给人一种毛手毛脚的毛病，做什么事情首先请想好目的，是否符合产品逻辑等等。</span></p>
+                  </div>
+               </div>
+            </div>
+          </div><!-- 成员列表 -->
+       </div><!-- .cont2-people-->
+     </div><!-- #cont2 -->
+
+     <!-- 公司历史  -->
+     <div id="cont3">
+       <div class="cont3-history">  
+         <!-- 历史记录 -->
+         <div class="his-1">
+           <!-- 时间线 -->
+           <div class="his-time">
+              <h1>2020年</h1>
+              <img src="./imgs/index/cont3/his1.png">
+           </div>
+           <!-- 事迹 -->
+           <div class="his-content">
+              <p>2020年10月01日</p>
+              <p>我们四个人</p>
+              <p>超S幻想科技创建工作室成功</p>
+           </div>
+         </div>
+
+         <div class="his-2">
+            <div class="his-time"> 
+              <h1>2022年</h1>
+              <img src="./imgs/index/cont3/his2.png">
+            </div>
+            <div class="his-content">
+              <p>2022年03月11日</p>
+              <p>我们的团队</p>
+              <p>超S幻想科技团队20人+</p>
+            </div>  
+         </div>
+
+          <div class="his-3">
+            <div class="his-time">
+              <h1>2025年</h1>
+              <img src="./imgs/index/cont3/his3.png">
+            </div>
+            <div class="his-content">
+              <p>2025年04月14日</p>
+              <p>服务、IT 、外包</p>
+              <p>超S幻想科技业务范围涵盖</p>
+            </div>
+          </div>
+
+          <div class="his-4">
+            <div class="his-time">
+              <h1>2030年</h1>
+              <img src="./imgs/index/cont3/his4.png">
+            </div>
+            <div class="his-content">
+              <p>2030年011月01日</p>
+              <p>奋斗多年</p>
+              <p>超S幻想科技公司终成立</p>
+            </div>
+          </div>
+
+          <div class="his-5">
+            <div class="his-time">
+              <h1>而现在...</h1>
+              <img src="./imgs/index/cont3/his5.png">
+            </div>
+            <div class="his-content">
+              <p class="djjr">
+                <a href="mycenter.html">
+                  点击加入
+                </a>
+              </p>
+           </div>
+          </div>
+
+       </div>
+     </div>  
+
+    </div>
+
+</div>
+
+</main>
+<!-- 脚 -->
+<footer id="footer">
+    <div class="foot">
+        <!-- 加入 -->
+        <ul class="foot-list">
+          <li><a href="mycenter.html">关于我们</a></li>
+          <li><a href="mycenter.html">联系我们</a></li>
+          <li><a href="mycenter.html">加入我们</a></li>
+          <li><a href="mycenter.html">举报我们</a></li>
+        </ul>
+        <!-- 声明 -->
+        <p class="copy">
+          copy © 版本声明
+        </p>
+    </div>
+  </footer>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/index.js"></script>
+<script src="js/banner.js"></script>
+<script>
+// pop.onclick=function(e){
+// 	 console.log(e.screenX, e.screenY)
+// 	 console.log(e.clientX, e.clientY)
+// 	 console.log(e.offsetX, e.offsetY)
+// }
+//实现定义开关: 
+var canMove=false;//开始时暂时不可移动
+//定义变量保存拖拽开始时鼠标在图片内的相对偏移距离
+var offsetX,offsetY;
+//当鼠标在pop上按下时
+pop.onmousedown=function(e){
+	canMove=true;//打开开关
+	//当按下鼠标打开开关时，立刻记录在图片内的相对偏移距离
+	offsetX=e.offsetX;
+	offsetY=e.offsetY;
+}
+//当鼠标在窗口中移动时
+window.onmousemove=function(e){
+	//只有开关打开时
+	if(canMove==true){
+		//才同时改变pop的位置
+		//先获得鼠标相对于文档显示区的坐标
+		var left=e.clientX;
+		var top=e.clientY;
+		//再设置pop的left和top与鼠标的位置相同
+		pop.style.left=left-offsetX+"px";
+		pop.style.top=top-offsetY+"px";
+	}
+}
+//当鼠标在pop上抬起时
+pop.onmouseup=function(){
+	canMove=false;//关闭开关
+}
+</script>
+</body>
+</html>
